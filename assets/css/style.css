@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-size: 1em;
+  text-align: center;
+  margin: 50px auto;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.content-center {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5%;
+}
+
+.content-center .text-center {
+  text-align: center;
+}
+
+.content-center img {
+  width: 90%;
+}
+
+.content-center form {
+  margin: 20px;
+}
+
+.content-center input,
+.content-center button {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+}
+
+.content-center input {
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin-bottom: 10px;
+}
+
+.content-center input:focus {
+  border-bottom-color: #dd9829;
+}
+
+.content-center button {
+  background-color: #f6bc5d;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.content-center button:hover {
+  background-color: #dd9829;
+  cursor: pointer;
+}
+
+.content-center button:active {
+  background-color: #ad6d06;
+}
+
+#texto-visite {
+  text-align: center;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+#section-images {
+  width: 100%;
+  max-width: 330px;
+}
+
+.icons-header {
+  height: 100%;
+  max-height: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.icons-header img {
+  width: 100%;
+  max-width: 50px;
+  padding: 5px;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+}
